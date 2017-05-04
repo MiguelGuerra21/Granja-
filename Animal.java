@@ -8,9 +8,9 @@
 public abstract class Animal
 {
     //Atributos
-    private int puntosDeVida;
-    private int peso;
-    private String sonidoCaracteristico;
+    protected int puntosDeVida;
+    protected int peso;
+    protected String sonidoCaracteristico;
 
     /**
      * Constructor for objects of class Animal.
